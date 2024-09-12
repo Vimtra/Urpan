@@ -48,7 +48,7 @@
     margin-right: 0;
 }
 .logo{
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
 .navigation{
     padding-left: 100px;
@@ -67,7 +67,7 @@
 .call{
     /* padding-left: 170px; */
     /* justify-content: start; */
-        max-width: fit-content;
+    max-width: fit-content;
 }
 
 .cont{
@@ -79,7 +79,7 @@
     background-color: rgb(243, 247, 253);
 }
 .home-detail{
-    padding-top: 250px;
+    padding-top: 150px;
 }
 .home-detail .homeh1{
     font-size: 60px;
@@ -100,8 +100,8 @@
 
 
 .company-image {
-    width: 700px; /* Adjust as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Adjust as needed */
+    height: 600px; /* Maintain aspect ratio */
     transform: translateX(-30px);
 }
 
@@ -137,7 +137,7 @@
 
 .aboutpoints{
     position: relative;
-    left: 200px;    
+    left: 160px;  
 }
 .aboutpoints img{
     width: auto;
