@@ -67,6 +67,7 @@
 .call{
     /* padding-left: 170px; */
     /* justify-content: start; */
+        max-width: fit-content;
 }
 
 .cont{
