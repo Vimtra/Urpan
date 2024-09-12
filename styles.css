@@ -1,0 +1,478 @@
+.contact-header{
+    padding-left: 170px;
+    padding-right: 170px;
+}
+.contact-header .header1{
+    transform: translateY(7px);
+}
+.contact-header i{
+    color: white;
+}
+
+.contact-header .col-md-6 a{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.contact-header .col-md-6 img{
+    width: auto;
+    height: 15px;
+    transform: translateY(-2px);
+}
+.social-links{
+    padding-left: 50px;
+    /* transform: translateY(-10px); */
+}
+
+
+.office-hours a{
+    padding-left: 40px;
+    padding-top: 70px;
+    color: white;
+}
+/* .office-hours img{
+    width: auto;
+    height: 15px;
+}  */
+
+.main-header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+    background-color: white;
+    
+}
+.header2{
+    padding-top: 10px;
+}
+
+.navbar{
+    position: relative;
+}
+.logo{
+    padding-left: 180px;
+}
+.navigation{
+    padding-left: 230px;
+    font-size: 18px;
+    /* transform: translateY(20px); */
+    /* transform: translateX(200px); */
+}
+.nav-link{
+    /* transform: translateX(100px); */
+    transform: translateY(10px);
+    /* padding-left: 500px; */
+    font-weight:500;
+    font-size: 14px;
+
+}
+.call{
+    padding-left: 170px;
+    justify-content: start;
+}
+
+.cont{
+    
+}
+
+.home-section{
+    margin-top: 10px;
+    background-color: rgb(243, 247, 253);
+}
+.home-detail{
+    padding-top: 250px;
+}
+.home-detail .homeh1{
+    font-size: 60px;
+    font-weight: 400;
+}
+.home-detail .homeh2{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(255, 163, 11);
+}
+.home-detail h4{
+    padding-bottom: 10px;
+
+}
+.home-detail p{
+    padding-top: 10px;
+}
+
+
+.company-image {
+    width: 700px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    transform: translateX(-30px);
+}
+
+/* about section */
+.about-section{
+    margin-top: 75px;
+}
+.about{
+    margin-left: 100px;
+}
+.about h2{
+    text-align: center;
+    width: auto;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    /* padding-right: 60px; */
+}
+.about p{
+    text-align: center;
+    width: 550px;
+}
+.about1{
+    color: rgb(255, 163, 11);
+    /* font-family: sans;
+    font-weight: 100; */
+}
+.aimg{
+    width:auto ;
+    height: 350px;
+    position: relative;
+    right: 80px;
+}
+
+.aboutpoints{
+    position: relative;
+    left: 200px;    
+}
+.aboutpoints img{
+    width: auto;
+    height: 42px;
+    position: absolute;
+    transform: translateY(10px);
+}
+.aboutpoints h5{
+    position: relative;
+    left: 55px;
+}
+.aboutpoints p{
+    position: relative;
+    left: 55px;
+}
+.achi{
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(243, 247, 253);
+    
+}
+
+.achi1{
+    display: flex;
+    padding: 70px 0px;
+    padding-right: 120px;
+}
+.achi1 h5{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+.achi1 p{
+    position: relative;
+    left: 20px;
+}
+
+/* services section */
+.service1{
+    color: rgb(255, 163, 11);
+}
+.service-card {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: white;
+    color: black;
+    /* box-shadow: -1px 1px 16px 2px rgba(0,0,0,0.64);
+-webkit-box-shadow: -1px 1px 16px 2px rgba(0,0,0,0.64);
+-moz-box-shadow: -1px 1px 16px 2px rgba(0,0,0,0.64); */
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+    transition: box-shadow 0.3s ease; /* Optional: Add transition for smooth effect */
+    min-height: 250px;
+}
+
+
+.service-card:hover {
+    background: linear-gradient(90deg, rgb(60, 60, 159), rgb(255, 188, 73));
+    color: white;
+}
+
+.service-card:hover .card-title,
+.service-card:hover .card-text {
+    color: white;
+}
+
+/* career section */
+#careerCarousel{
+    position: relative;
+    /* min-height: 450px; */
+}
+.career-card{
+    min-height: 550px;
+}
+.custom-carousel-control {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.464);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev.custom-carousel-control {
+    /* left: 50%; */
+    transform: translate(0%, -50%); /* Center vertically and adjust to the left of the center */
+}
+
+.carousel-control-next.custom-carousel-control {
+    /* right: 50%; */
+    transform: translate(0%, -50%); /* Center vertically and adjust to the right of the center */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 10px;
+    height: 10px;
+}
+
+/* From Uiverse.io by Creatlydev */ 
+.card-body button{
+    position:absolute;
+    bottom: 20px;
+    left: 150px;
+}
+.button {
+    line-height: 1;
+    text-decoration: none;
+    display: inline-flex;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: var(--clr);
+    color: #fff;
+    --clr:linear-gradient(90deg, rgb(60, 60, 159), rgb(255, 188, 73));
+    border-radius: 10rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color 0.3s;
+  }
+  
+  .button__icon-wrapper {
+    flex-shrink: 0;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    color: var(--clr);
+    background-color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  
+  .button:hover {
+    background-color: #000;
+  }
+  
+  .button:hover .button__icon-wrapper {
+    color: #000;
+  }
+  
+  .button__icon-svg--copy {
+    position: absolute;
+    transform: translate(-150%, 150%);
+  }
+  
+  .button:hover .button__icon-svg:first-child {
+    transition: transform 0.3s ease-in-out;
+    transform: translate(150%, -150%);
+  }
+  
+  .button:hover .button__icon-svg--copy {
+    transition: transform 0.3s ease-in-out 0.1s;
+    transform: translate(0);
+  }
+
+  #contact {
+    background-color: #f8f9fa;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    position: relative;
+    height: 0;
+}
+
+.map-container .iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h2, h4 {
+    color: #333;
+}
+
+.contact-detail li{
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+ul.list-unstyled li strong {
+    color: #333;
+}
+
+  /* Job Posting */
+
+  .t{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin: 15px 0px;
+  }
+
+  .JF{
+    display: flex;
+    margin: 1px;
+    margin-bottom: 15px;
+  }
+
+  .JF h6{
+    padding-bottom: 8px;
+    color: rgb(68, 68, 68);
+    font-size: small;
+  }
+
+  .JF p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(102, 102, 102);
+    line-height: 1.7;
+  }
+
+  .JF1{
+    width: 40%;
+  }
+
+  .JF2{
+    margin-left: 200px;
+  }
+
+  form {
+    max-width: 300px;
+    margin: 0;
+}
+
+form h5{
+    color: rgb(221, 144, 28);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: small;
+    /* font-weight: bold; */
+}
+input[type="text"], input[type="email"], input[type="file"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: darkorange;
+}
+
+/* footer section */
+/* First Footer Styling */
+.footer-main {
+    background-color: rgb(0, 29, 76);
+    color: #ffffff;
+}
+
+.footer-main img {
+    max-width: 190px;
+    padding-bottom: 20px;
+}
+
+.footer-main h5 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.footer-main ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-main ul li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-main ul li i {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.footer-main ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-main ul li a:hover {
+    color: rgb(255, 171, 17);
+}
+
+/* Second Footer Styling */
+.footer-secondary {
+    background-color: rgb(0, 29, 76);
+    color: #fff;
+}
+
+.footer-secondary p {
+    margin: 0;
+}
+
+.footer-secondary ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.footer-secondary ul li {
+    margin-left: 15px;
+}
+
+.footer-secondary ul li a {
+    color: #808080;
+    text-decoration: none;
+}
+
+.footer-secondary ul li a:hover {
+    color: #ffffff;
+}
